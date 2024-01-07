@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="author" content="Mathilde Willems"/>
+        <title>Mathilde Willems Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="Style/style.css"/>
+        <link rel="icon" href="Pictures/MWLogo.jpg"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="PortfolioIndex.html">Home</a></li>
+                    <li><a href="Sites/ENG/Designs.html">Designs</a></li>
+                    <li><a href="Sites/ENG/Informations.html">Information</a></li>
+                    <li><a href="Sites/ENG/Q&A.html">Q&A</a></li>
+                    <li class="split"><a href="Sites/NL/homeNL.html" class="language">NL</a></li>
+                    <li class="split"><a href="Sites/FR/HomeFR.html" class="language">FR</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="grid-container">
+            <article class="hometitle">
+                <h1>Let's discover...</h1>
+            </article>
+            <video autoplay muted loop class="homevideo">
+                <source src="Videos/ChristmasBalls2mp4.mp4" type="video/mp4"/>
+            </video>
+            <article class="homeinfo">
+                <h2>Thank you for visiting my website. <br>You can discover: <br>My designs, about myself and even some Q&A.</h2>
+            </article>
+            <article class="form">
+                <h3>Here is my contact form. Don't hesitate to contact me.</h3>
+                <form action="mailto:willems.mathilde001@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname"  placeholder="Your name...">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname:" placeholder="Your last name...">
+                    
+                    <label for="email">Email Adress</label>
+                    <input type="text" id="email" name="EmailAdress:" placeholder="Your email adress...">
+
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="yourmessage:" placeholder="Write your message..." style="height:200px"></textarea>
+                    
+                    <button class="button" type="submit" value="Submit">Send</button>
+                  </form>
+            </article>
+        </div>
+    </body>
+</html>
