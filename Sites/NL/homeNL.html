@@ -21,34 +21,33 @@
                 </ul>
             </nav>
         </header>
-        <div class="grid-container">
-            <article class="hometitle">
-                <h1>Ontdekken...</h1>
-            </article>
-            <video autoplay muted loop class="homevideo">
+        <section class="container">
+            <h1>Tijd om te ontdekken...</h1>
+            <video class="homevideo" autoplay muted loop class="homevideo">
                 <source src="../../Videos/ChristmasBalls2mp4.mp4" type="video/mp4"/>
             </video>
-            <article class="homeinfo">
-                <h2>Bedankt voor het bezoeken van mijn website. <br> Je kunt ontdekken: <br> Mijn ontwerpen, over mezelf en zelfs over wat Q&A.</h2>
-            </article>
-            <article class="form">
-                <h3>Hier is mijn contactformulier. Aarzel niet om contact met me op te nemen.</h3>
-                <form action="/action_page.php">
-                    <label for="fname">Voornaam</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Uw naam...">
+        </section>
+        <section class="thanks">
+            <h2>Bedankt voor het bezoeken van mijn website. <br> Je kunt ontdekken: <br> Mijn ontwerpen, over mezelf en zelfs over wat Q&A.</h2>
+        </section>
+        <article class="form">
+            <h3>Hier is mijn contactformulier. Aarzel niet om contact met me op te nemen.</h3>
+            <form action="/action_page.php">
+                <label for="fname">Voornaam</label>
+                <input type="text" id="fname" name="firstname" placeholder="Uw naam...">
+            
+                <label for="lname">Achternaam</label>
+                <input type="text" id="lname" name="lastname" placeholder="Uw achternaam....">
                 
-                    <label for="lname">Achternaam</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Uw achternaam....">
-                    
-                    <label for="email">E-mailadres</label>
-                    <input type="text" id="email" name="EmailAdress" placeholder="Uw E-mailadres...">
+                <label for="email">E-mailadres</label>
+                <input type="text" id="email" name="EmailAdress" placeholder="Uw E-mailadres...">
 
-                    <label for="message">Uw bericht</label>
-                    <textarea id="message" name="yourmessage" placeholder="Schrijf uw bericht..." style="height:200px"></textarea>
-                    
-                    <input type="submit" value="Verzenden">
-                  </form>
-            </article>
+                <label for="message">Uw bericht</label>
+                <textarea id="message" name="yourmessage" placeholder="Schrijf uw bericht..." style="height:200px"></textarea>
+                
+                <input type="submit" value="Verzenden">
+                </form>
+        </article>
         </div>
     </body>
 </html>

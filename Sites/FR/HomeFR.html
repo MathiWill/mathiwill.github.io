@@ -21,34 +21,32 @@
                 </ul>
             </nav>
         </header>
-        <div class="grid-container">
-            <article class="hometitle">
-                <h1 >A la découverte...</h1>
-            </article>
-            <video autoplay muted loop class="homevideo">
+        <section class="container">
+            <h1>A la découverte...</h1>
+            <video class="homevideo" autoplay muted loop class="homevideo">
                 <source src="../../Videos/ChristmasBalls2mp4.mp4" type="video/mp4"/>
             </video>
-            <article class="homeinfo">
-                <h2>Je vous remercie de visiter mon site <br>Vous y découvrirez: <br>Mes designs, à propos de moi et même des Q&R.</h2>
-            </article>
-            <article class="form">
-                <h3>Voici mon formulaire de contact. N'hésitez pas</h3>
-                <form action="/action_page.php">
-                    <label for="fname">Prénom</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Votre nom...">
+        </section>
+        <section class="thanks">
+            <h2>Je vous remercie de visiter mon site <br>Vous y découvrirez: <br>Mes designs, à propos de moi et même des Q&R.</h2>
+        </section>
+        <section class="form">
+            <h3>Voici mon formulaire de contact. N'hésitez pas</h3>
+            <form action="/action_page.php">
+                <label for="fname">Prénom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre nom...">
+            
+                <label for="lname">Nom de famille</label>
+                <input type="text" id="lname" name="lastname" placeholder="Votre nom de famille...">
                 
-                    <label for="lname">Nom de famille</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Votre nom de famille...">
-                    
-                    <label for="email">Adresse mail</label>
-                    <input type="text" id="email" name="EmailAdress" placeholder="Votre adresse mail...">
+                <label for="email">Adresse mail</label>
+                <input type="text" id="email" name="EmailAdress" placeholder="Votre adresse mail...">
 
-                    <label for="message">Votre message</label>
-                    <textarea id="message" name="yourmessage" placeholder="Ecrivez votre message..." style="height:200px"></textarea>
-                    
-                    <input type="submit" value="Envoyer">
-                  </form>
-            </article>
-        </div>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="yourmessage" placeholder="Ecrivez votre message..." style="height:200px"></textarea>
+                
+                <input type="submit" value="Envoyer">
+                </form>
+            </section>
     </body>
 </html>
