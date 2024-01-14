@@ -411,3 +411,10 @@ padding: 2%;
 .QA p {
 font-family: 'handlee';
 }
+/************************************************ footer ************************************************/
+footer {
+  background-color: #05c6d0aa;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
