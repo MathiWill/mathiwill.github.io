@@ -50,11 +50,19 @@ nav li a {
 display: block;
 color: white;
 text-align: center;
-padding: 14px 16px;
+padding-top: 11px;
+padding-left: 30px;
+padding-bottom: 30px;
+padding-bottom: 0px;
 text-decoration: none;
 font-family: 'lemon';
 font-size: 130%;
 }
+
+.navbarelement {
+    margin-top: 60px;
+}
+
 ul li a:hover{
 opacity:1;
 filter:blur(0);
@@ -71,13 +79,13 @@ float: right;
 margin-right: 2%;
 }
 .logosite {
-    width: 30%;
+    width: 60%;
 }
 /************************************************ A propos ************************************************/
 .firstpicture {
     grid-area: 1/1/2/4;
     margin-left:5%;
-    margin-top: 20%;
+    margin-top: 30%;
 }
 .firsttext {
     grid-area: 1/4/2/7;
@@ -163,7 +171,7 @@ h2 {
     grid-area: 1/1/3/2;
     background-color: rgba(255, 255, 255, 0.845);
     margin-left: 1%;
-    margin-top: 30%;
+    margin-top: 40%;
     border-radius: 10px;
     color:white;
     text-decoration: none;
@@ -283,7 +291,7 @@ h2 {
 }
 /************************************************ Lessons Table ************************************************/
 .tablehoraire {
-    margin-top: 10%;
+    margin-top: 13%;
 }
 table {
     margin-left: 3%;
@@ -354,9 +362,24 @@ th, td {
     border: 2px solid rgb(58, 171, 171);
     padding: 20px 30px;
  }
+ /************************************************ Evenements à venir ************************************************/
+.evenement1 {
+    grid-area: 1/1/2/2;
+    margin-top: 20%;
+}
+.postersize {
+    height: 50%;
+}
+.evenement2 {
+    grid-area: 1/2/2/3;
+    margin-top: 20%;
+}
+.evenement3 {
+    grid-area: 1/3/2/4;
+}
  /************************************************ Contact ************************************************/
 .contact {
-    margin-top: 10%;
+    margin-top: 13%;
 }
 h3 {
     font-family: 'lemon';
